@@ -1,0 +1,54 @@
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/vFishyTurtle/SN-Lib/main/src'))()
+local lib = Library:CreateWindow({Title = "SDoors WIP"})
+local t1 = lib:NewTab({Name = "ESP"})
+t1:NewButton({
+	Name = "Door",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Door_ESP.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Key",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Key_ESP.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Book",
+	callback = function(v)
+	  loadatring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Book_ESP.txt"))()
+	end,
+})
+local t1 = lib:NewTab({Name = "Setting"})
+t1:NewButton({
+	Name = "Normal Setting",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Football-Exploit/main/Boost%20WalkSpeed.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Balant Setting",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Football-Exploit/main/Legit%20Walkspeed.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Legit Setting",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Football-Exploit/main/Legit%20Walkspeed.txt"))()
+	end,
+})
+local t1 = lib:NewTab({Name = "Fly"})
+t1:NewButton({
+	Name = "Fly GUI",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://pastebin.com/raw/h5QDPy6s"))()
+	end,
+})
+local t1 = lib:NewTab({Name = "Credits"})
+t1:NewButton({
+	Name = "All Made By Ronn",
+	callback = function(v)
+		print("Yay you defeated them anti cheat fuckers")
+	end,
+})
