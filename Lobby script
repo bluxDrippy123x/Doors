@@ -1,0 +1,59 @@
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/vFishyTurtle/SN-Lib/main/src'))()
+local lib = Library:CreateWindow({Title = "Lobby"})
+local t1 = lib:NewTab({Name = "Elevator"})
+t1:NewButton({
+	Name = "Elevator 1",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Elevator_1.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Elevator 2",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Elevator_2.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Elevator 3",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Elevator_3.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Elevator 4",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Elevator_4.txt"))()
+	end,
+})
+local t1 = lib:NewTab({Name = "AFK Spot"})
+t1:NewButton({
+	Name = "Spot 1",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Spot_1.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Spot 2",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Spot_2.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Spot 3",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Spot_3.txt"))()
+	end,
+})
+t1:NewButton({
+	Name = "Anti AFK",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/anti-afk%20via%20autofocus.txt"))()
+	end,
+})
+local t1 = lib:NewTab({Name = "Credits"})
+t1:NewButton({
+	Name = "Made by Ronn",
+	callback = function(v)
+		print("L admins and fuck cry babys complaining about hacking")
+	end,
+})
