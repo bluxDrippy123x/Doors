@@ -1,0 +1,27 @@
+-- Smooth Teleport Script
+
+-- Coordinates to teleport to
+local targetPosition = Vector3.new(-1008, 2, 665)
+
+-- Tweening parameters
+local tweenTime = 2 -- Time to complete the teleport
+local tweenService = game:GetService("TweenService")
+
+-- Player and character references
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+-- Create the tween
+local tweenInfo = TweenInfo.new(tweenTime, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+local goal = {CFrame = CFrame.new(targetPosition)}
+
+local tween = tweenService:Create(humanoidRootPart, tweenInfo, goal)
+
+-- Start the tween
+tween:Play()
+
+-- Optional: Ensure the player remains upright
+tween.Completed:Connect(function()
+    humanoidRootPart.CFrame = CFrame.new(targetPosition) * CFrame.Angles(0, humanoidRootPart.CFrame:ToEulerAnglesYXZ())
+end)
