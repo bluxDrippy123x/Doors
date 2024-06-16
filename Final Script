@@ -1,0 +1,7 @@
+local gameID = 6516141723
+
+if game.PlaceId == gameID then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Lobby%20script"))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Doors%20InGame%20GUI"))()
+end
