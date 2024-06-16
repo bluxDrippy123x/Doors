@@ -38,11 +38,17 @@ t1:NewButton({
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Football-Exploit/main/Legit%20Walkspeed.txt"))()
 	end,
 })
-local t1 = lib:NewTab({Name = "Fly"})
+local t1 = lib:NewTab({Name = "Fun special"})
 t1:NewButton({
 	Name = "Fly GUI",
 	callback = function(v)
 	  loadstring(game:HttpGet("https://pastebin.com/raw/h5QDPy6s"))()
+	end,
+})
+t1:NewButton({
+	Name = "FullBright",
+	callback = function(v)
+	  loadstring(game:HttpGet("https://pastebin.com/raw/7S3aQsQF"))()
 	end,
 })
 local t1 = lib:NewTab({Name = "Credits"})
