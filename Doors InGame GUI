@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/vFishyTurtle/SN-Lib/main/src'))()
-local lib = Library:CreateWindow({Title = "Doors InGame WIP"})
+local lib = Library:CreateWindow({Title = "Doors InGame"})
 local t1 = lib:NewTab({Name = "ESP"})
 t1:NewButton({
 	Name = "Door",
