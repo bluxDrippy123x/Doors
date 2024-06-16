@@ -16,7 +16,7 @@ t1:NewButton({
 t1:NewButton({
 	Name = "Book",
 	callback = function(v)
-	  loadatring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Book_ESP.txt"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bluxDrippy123x/Doors/main/Book_ESP.txt"))()
 	end,
 })
 local t1 = lib:NewTab({Name = "Setting"})
